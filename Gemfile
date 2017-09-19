@@ -60,6 +60,7 @@ group :development do
   gem 'faker'
   gem 'hirb'
   gem 'wirble'
+  
 
 end
 
