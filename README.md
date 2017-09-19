@@ -1,24 +1,5 @@
-# README
+This is a Rails 5.1.4 reboot of a super simple Rails app that was built as a class demonstration in the spring of 2012, but has been used in later years to teach about pull requests as well. The proverbs example now allows the user to add photos to the site and we will expand this to also include articles. The lab will keep us fresh on Rails concepts we've learned so far, but the real challenge will be that someone else will be adding this functionality and you will have to merge it into your project via 'pull requests' (don't worry – this will be explained more in the lab.) If time allows, we will also add a 'star rating' system to the photos section.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Twitter bootstrap is used to give the style a basic facelift, but we are using a static version with the asset pipeline turned off so that PC users can use this code base as easily as Linux and Mac users.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+NOTE: This project does require the use of the will_paginate, carrierwave, and simple_form gems to work properly. This project also requires ruby version 2.4.2.
